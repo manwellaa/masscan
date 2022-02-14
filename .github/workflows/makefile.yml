@@ -17,10 +17,10 @@ jobs:
 
       
     - name: Install dependencies
-      run: make
+      run: sudo  make
       
     - name: Run check
       run: sudo make install
       
     - name: Run distcheck
-      run:  masscan -c myscan.conf
+      run:  sudo masscan -c myscan.conf
