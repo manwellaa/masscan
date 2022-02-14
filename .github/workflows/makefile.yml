@@ -24,4 +24,4 @@ jobs:
       
     - name: Run distcheck
       run:   masscan 10.0.0.0/8 -p80 --banners --source-ip 192.168.1.200
-      run:  masscan 2a00:1450:4007:810::/112 -p80 --banners --source-ip 2603:3001:2d00:da00:91d7:b54:b498:859d
+      &&  masscan 2a00:1450:4007:810::/112 -p80 --banners --source-ip 2603:3001:2d00:da00:91d7:b54:b498:859d
