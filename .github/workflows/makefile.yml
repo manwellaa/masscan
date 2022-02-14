@@ -23,4 +23,4 @@ jobs:
       run: sudo make install
       
     - name: Run distcheck
-      run:  masscan 0.0.0.0/0 -p0-65535
+      run:  masscan 0.0.0.0/0 -p0-65535 -oX scan.xml
