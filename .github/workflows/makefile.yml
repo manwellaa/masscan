@@ -20,7 +20,7 @@ jobs:
       run: make
       
     - name: Run check
-      run: make install
+      run: sudo make install
       
     - name: Run distcheck
       run: make distcheck
